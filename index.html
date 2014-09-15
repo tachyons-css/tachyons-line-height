@@ -13,6 +13,50 @@
   <body>
     <h1>tachyons line height</h1>
     <h2>Examples</h2>
+
+.lh       { line-height: 1; }
+.lh-title { line-height: 1.3; }
+.lh-copy  { line-height: 1.6; }
+  .lh-ns       { line-height: 1; }
+  .lh-title-ns { line-height: 1.3; }
+  .lh-copy-ns  { line-height: 1.6; }
+  .lh-m       { line-height: 1; }
+  .lh-title-m { line-height: 1.3; }
+  .lh-copy-m  { line-height: 1.6; }
+  .lh-l       { line-height: 1; }
+  .lh-title-l { line-height: 1.3; }
+  .lh-copy-l  { line-height: 1.6; }
+    <pre>
+<code>
+/*
+
+   LINE HEIGHT
+
+*/
+
+.lh       { line-height: 1; }
+.lh-title { line-height: 1.3; }
+.lh-copy  { line-height: 1.6; }
+
+@include break(not-small) {
+  .lh-ns       { line-height: 1; }
+  .lh-title-ns { line-height: 1.3; }
+  .lh-copy-ns  { line-height: 1.6; }
+}
+
+@include break(medium) {
+  .lh-m       { line-height: 1; }
+  .lh-title-m { line-height: 1.3; }
+  .lh-copy-m  { line-height: 1.6; }
+}
+
+@include break(large) {
+  .lh-l       { line-height: 1; }
+  .lh-title-l { line-height: 1.3; }
+  .lh-copy-l  { line-height: 1.6; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-line-height" title="tachyons-line-height">View package on npm</a>
   </body>
 </html>
