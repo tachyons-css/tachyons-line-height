@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
-  gulp.src('./line-height.scss')
-      .pipe(watch('./line-height.scss', function(files) {
+  gulp.src('./line_height.scss')
+      .pipe(watch('./line_height.scss', function(files) {
         return files.pipe(sass())
           .pipe(size({gzip: false, showFiles: true, title:'un-prefixed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'un-prefixed gzipped css'}))
@@ -21,7 +21,7 @@ gulp.task('pre-process', function(){
           .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
           .pipe(gulp.dest('./'))
           .pipe(minifyCSS())
-          .pipe(rename('line-height.min.css'))
+          .pipe(rename('line_height.min.css'))
           .pipe(gulp.dest('./'))
           .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
           .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
