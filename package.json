@@ -1,12 +1,12 @@
 {
   "name": "tachyons-line-height",
   "version": "0.3.0",
-  "style": "line_height.css",
+  "style": "tachyons-line-height.css",
   "homepage": "http://mrmrs.io/tachyons-line-height",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
