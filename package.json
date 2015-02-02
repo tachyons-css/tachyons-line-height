@@ -2,7 +2,7 @@
   "name": "tachyons-line-height",
   "version": "1.0.0",
   "style": "tachyons-line-height.css",
-  "homepage": "http://mrmrs.io/tachyons-line-height",
+  "homepage": "http://github.com/mrmrs/tachyons-line-height",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
