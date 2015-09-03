@@ -1,45 +1,22 @@
-# TACHYONS-LINE-HEIGHT
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-line-height
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   LINE HEIGHT
-
-*/
-
-.lh       { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.6; }
-
-@include break(not-small) {
-  .lh-ns       { line-height: 1; }
-  .lh-title-ns { line-height: 1.3; }
-  .lh-copy-ns  { line-height: 1.6; }
-}
-
-@include break(medium) {
-  .lh-m       { line-height: 1; }
-  .lh-title-m { line-height: 1.3; }
-  .lh-copy-m  { line-height: 1.6; }
-}
-
-@include break(large) {
-  .lh-l       { line-height: 1; }
-  .lh-title-l { line-height: 1.3; }
-  .lh-copy-l  { line-height: 1.6; }
-}
+<%= srcCSS %>
 ```
 
 ## Author

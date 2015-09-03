@@ -1,21 +1,24 @@
-# TACHYONS-LINE-HEIGHT
+# tachyons-line-height
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-line-height
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-line-height
+```
 
 ## The Code
 ```
-
 /*
 
-   LINE HEIGHT
+   LINE HEIGHT / LEADING
 
 */
 
@@ -23,23 +26,25 @@ or download the css on github and include in your project.
 .lh-title { line-height: 1.3; }
 .lh-copy  { line-height: 1.6; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .lh-ns       { line-height: 1; }
   .lh-title-ns { line-height: 1.3; }
   .lh-copy-ns  { line-height: 1.6; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .lh-m       { line-height: 1; }
   .lh-title-m { line-height: 1.3; }
   .lh-copy-m  { line-height: 1.6; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .lh-l       { line-height: 1; }
   .lh-title-l { line-height: 1.3; }
   .lh-copy-l  { line-height: 1.6; }
 }
+
+
 ```
 
 ## Author
