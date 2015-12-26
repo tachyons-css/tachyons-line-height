@@ -3,26 +3,22 @@
    LINE HEIGHT / LEADING
 
 */
-
-.lh       { line-height: 1; }
+.lh { line-height: 1; }
 .lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.6; }
-
+.lh-copy { line-height: 1.6; }
 @media screen and (min-width: 48em) {
-  .lh-ns       { line-height: 1; }
-  .lh-title-ns { line-height: 1.3; }
-  .lh-copy-ns  { line-height: 1.6; }
+ .lh-ns { line-height: 1; }
+ .lh-title-ns { line-height: 1.3; }
+ .lh-copy-ns { line-height: 1.6; }
 }
-
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .lh-m       { line-height: 1; }
-  .lh-title-m { line-height: 1.3; }
-  .lh-copy-m  { line-height: 1.6; }
+ .lh-m { line-height: 1; }
+ .lh-title-m { line-height: 1.3; }
+ .lh-copy-m { line-height: 1.6; }
 }
-
 @media screen and (min-width: 64em) {
-  .lh-l       { line-height: 1; }
-  .lh-title-l { line-height: 1.3; }
-  .lh-copy-l  { line-height: 1.6; }
+ .lh-l { line-height: 1; }
+ .lh-title-l { line-height: 1.3; }
+ .lh-copy-l { line-height: 1.6; }
 }
 
