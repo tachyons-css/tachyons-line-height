@@ -2,15 +2,15 @@
   "name": "tachyons-line-height",
   "version": "2.0.1",
   "style": "tachyons-line-height.css",
-  "homepage": "http://github.com/mrmrs/tachyons-line-height",
+  "homepage": "http://github.com/tachyons-css/tachyons-line-height",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-line-height.git"
+    "url": "http://github.com/tachyons-css/tachyons-line-height.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-line-height/issues",
+    "url": "https://github.com/tachyons-css/tachyons-line-height/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
