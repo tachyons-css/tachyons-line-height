@@ -1,4 +1,4 @@
-# tachyons-line-height 1.1.0
+# tachyons-line-height 2.0.3
 
 Performance based css module.
 
