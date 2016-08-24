@@ -1,4 +1,4 @@
-# tachyons-line-height 2.0.8
+# tachyons-line-height 3.0.0
 
 Performance based css module.
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-line-height@2.0.8/css/tachyons-line-height.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-line-height@3.0.0/css/tachyons-line-height.min.css" />
 ```
 
 ##### Locally
