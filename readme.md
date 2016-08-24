@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-190 | 12 | 12
+189 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -82,17 +82,17 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.3; }
 .lh-copy { line-height: 1.6; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .lh-solid-ns { line-height: 1; }
  .lh-title-ns { line-height: 1.3; }
  .lh-copy-ns { line-height: 1.6; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.3; }
  .lh-copy-m { line-height: 1.6; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .lh-solid-l { line-height: 1; }
  .lh-title-l { line-height: 1.3; }
  .lh-copy-l { line-height: 1.6; }
