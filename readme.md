@@ -1,8 +1,8 @@
-# tachyons-line-height 3.0.1
+# tachyons-line-height 3.0.7
 
 Performance based css module.
 
-#### Stats
+### Stats
 
 273 | 12 | 12
 ---|---|---
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-line-height@3.0.1/css/tachyons-line-height.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-line-height@3.0.7/css/tachyons-line-height.min.css" />
 ```
 
 ##### Locally
